@@ -38,7 +38,7 @@ df_products.drop(columns='Unnamed: 0', inplace=True)
 # ========================= ADD ids to dataframe =========================
 
 df_sales['id_brand'] = df_sales.id_commodity.map(dict(zip(df_products.ID_product, df_products.Brand_id)))
-df_sales['id_group'] = df_sales.id_commodity.map(dict(zip(df_products.ID_product, df_products.Brand_id)))
+df_sales['id_group'] = df_sales.id_commodity.map(dict(zip(df_products.ID_product, df_products.Product_group_id)))
 df_sales['id_manager'] = df_sales.id_commodity.map(dict(zip(df_products.ID_product, df_products.Manager_id)))
 df_sales['id_mark'] = df_sales.id_commodity.map(dict(zip(df_products.ID_product, df_products.Mark_id)))
 df_sales['id_channel'] = df_sales.id_client.map(dict(zip(df_clients.index, df_clients.Channel_id)))
