@@ -116,8 +116,8 @@ left_column, right_column = st.columns([1, 3])
 
 with left_column:
 
-    date_base_start, date_base_end = st.date_input(label='📅 Base Interval', value=[pd.Timestamp('2020-01-01'), pd.Timestamp('2020-03-31')])
-    date_fact_start, date_fact_end = st.date_input(label='📅 Fact Interval', value=[pd.Timestamp('2021-01-01'), pd.Timestamp('2021-03-31')])
+    date_base_start, date_base_end = st.date_input(label='📅 Base Interval', value=[pd.Timestamp('2020-06-01'), pd.Timestamp('2020-08-31')])
+    date_fact_start, date_fact_end = st.date_input(label='📅 Fact Interval', value=[pd.Timestamp('2021-09-01'), pd.Timestamp('2021-11-30')])
 
 date_base_start = pd.Timestamp(date_base_start)
 date_fact_start = pd.Timestamp(date_fact_start)
