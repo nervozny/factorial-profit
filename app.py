@@ -67,8 +67,8 @@ axes_options = {
     'Manager': 'Manager_Marketing'
 }
 
-x_ax = st.sidebar.selectbox("➡️ what's on the X axis?", list(axes_options.keys()), 0)
-y_ax = st.sidebar.selectbox("⬆️ what's on the Y axis?", list(axes_options.keys()), 2)
+x_ax = st.sidebar.selectbox("➡️ what's on the X axis?", list(axes_options.keys()), 2)
+y_ax = st.sidebar.selectbox("⬆️ what's on the Y axis?", list(axes_options.keys()), 0)
 
 if x_ax == y_ax:
     st.error('The axes must have different data')
