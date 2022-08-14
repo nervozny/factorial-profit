@@ -1,2 +1,2 @@
 # Factorial Profit Analysis
-This as a demo application of factorial analysis of profit using the chain substitution method. 
+This as a demo application of factorial analysis of profit using the chain substitution method https://nervozny-factorial-profit-app-ixvnah.streamlitapp.com/
