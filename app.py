@@ -313,6 +313,10 @@ with left_col:
 
 
     fig = go.Figure(data=[data], layout=layout)
+    fig.update_layout(        
+        xaxis_title=x_ax,
+        yaxis_title=y_ax)
+
     st.plotly_chart(fig, use_container_width=False)
 
 with mid_col:
@@ -336,6 +340,7 @@ with mid_col:
                 margin=dict(l=0, b=0),                    
             )
     fig = go.Figure(data=[data], layout=layout)
+    fig.update_layout(xaxis_title=x_ax)
     st.plotly_chart(fig, use_container_width=False)
 
 with right_col:
@@ -359,6 +364,7 @@ with right_col:
                 margin=dict(l=0, b=0),                    
             )
     fig = go.Figure(data=[data], layout=layout)
+    fig.update_layout(xaxis_title=x_ax)
     st.plotly_chart(fig, use_container_width=False)
 
 
