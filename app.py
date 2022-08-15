@@ -72,7 +72,7 @@ y_ax = st.sidebar.selectbox("⬆️ what's on the Y axis?", list(axes_options.ke
 
 if x_ax == y_ax:
     st.error('The axes must have different data')
-    sys.stop()
+    st.stop()
 
 # ========================= SIDEBAR FILTERS =========================
 st.sidebar.markdown('---')
