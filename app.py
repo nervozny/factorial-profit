@@ -376,7 +376,7 @@ brand_load_list = [v for k, v in brand_dict.items() if k in my_brand_load]
 
 dm1_exp = dm1.loc[(dm1.id_department.isin(my_dept_load)) & (dm1.Brand.isin(brand_load_list)) & (dm1.Manager_Marketing.isin(manager_load_list))].copy()
 
-@st.experimental_memo
+#@st.experimental_memo
 def calc_export():
     strIO = io.BytesIO()
     with pd.ExcelWriter(strIO, engine='xlsxwriter') as writer:
