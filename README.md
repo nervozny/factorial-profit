@@ -26,7 +26,7 @@ Since it's a marketing and sales analysis instrument, we not only want to be abl
 What I came up with is to use the combination of product and client as a lower level of granularity.
 The back side of this approach is that the size of your dataframe increases dramatically.
 
-## Examples of use
+## Example of use
 
 Three heatmaps and a set of filters allow you to visually evaluate the most important changes in profit.  
 For example we can see there was an overall decrease of 204.8k in profit in autumn compared to summer 2020.
