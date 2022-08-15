@@ -47,4 +47,8 @@ As a KAR Brand Manager, Witch Jelly Product Manager or Derry Sales Manager we pr
 This information answers our initial quiestion (drop in profit of 25.6K for the KAR brand in branch Derry): obviously there was one client (id 155215) who purchased a lot of KAR products (Witch Jelly and Batteries mostly) and probably asked for a considerable discount. Sometimes this tradeoff was justified by the increase of profit due to the number of pieces sold, sometimes not. In any case the Sales Manager in Derry has some homework to do.
 
 
+## Dash Plotly
+The Dash implementation works similarly but the design is slightly different:
+
+![image](https://user-images.githubusercontent.com/102557512/184679530-39f9d8c3-9541-40b0-b566-884452cbb14f.png)
 
