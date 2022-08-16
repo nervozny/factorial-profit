@@ -11,7 +11,7 @@ This is a real project that was implemented in a company I worked for, however, 
 
 ## Theory
 
-The chain substitution method that is used in this project is a classiс method that allows you to determine the independent influence of each of the components (factors) on the delta profit. The approach to extracting factors is as follows: you successively substitute the factors of the base time interval with the factors of the actual (fact) period. The factors I use for profit analysis in this project are price, cost and quantity (structure) of sales:
+The chain substitution method that is used in this project is a classiс method that allows you to determine the independent influence of each of the components (factors) on the delta profit. The approach to extracting factors is as follows: you successively substitute the factors of the base time interval with the factors of the actual (fact) time interval. The factors I use for profit analysis in this project are price, cost and quantity (structure) of sales:
 
 If Profit = Quantity $\times$ (Price - Cost),
 so the chain substitution would look like this:
