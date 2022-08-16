@@ -40,7 +40,7 @@ As a Head of Marketing we might want to drill down and find out what group of pr
 
 In the fall something happened to Witch Jelly (KAR brand) products in the Derry branch when selling through the DIY channel.
 
-As a KAR Brand Manager, Witch Jelly Product Manager or Derry Sales Manager we probably would like to drill even further and take a look at the exact products and clients responsible for this. To go down to the lowest level there is an export section which allows to export the required slice of data to MS Excel and provide all the calculations and raw data.
+As a KAR Brand Manager, Witch Jelly Product Manager or Derry Sales Manager we probably would like to drill even further and take a look at the exact products and clients responsible for this. To go down to the lowest level there is an export section which allows to export the required slice of data to MS Excel and provides all the calculations and raw data.
 
 ![image](https://user-images.githubusercontent.com/102557512/184673302-ed847a21-898e-4a2d-ae66-f5e29ba2def3.png)
 
