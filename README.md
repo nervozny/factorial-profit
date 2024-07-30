@@ -16,8 +16,8 @@ The chain substitution method that is used in this project is a classiс method 
 If Profit = Quantity $\times$ (Price - Cost),
 so the chain substitution would look like this:
 
-Price influence = Quantity<sub>fact</sub>  $\times$ (Price<sub>fact</sub> - Price<sub>base</sub>)  
-Cost influence = Quantity<sub>fact</sub>  $\times$ (Cost<sub>base</sub> - Cost<sub>fact</sub>)  
+Price influence = Quantity<sub>fact</sub>  $\times$ (Price<sub>fact</sub> - Cost<sub>base</sub>)  
+Cost influence = Quantity<sub>fact</sub>  $\times$ (Price<sub>base</sub> - Cost<sub>fact</sub>)  
 Quantity influence = (Quantity<sub>fact</sub> - Quantity<sub>base</sub>)  $\times$ (Price<sub>base</sub> - Cost<sub>base</sub>)
 
 ## Practice
